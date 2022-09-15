@@ -1,0 +1,22 @@
+{
+  "clientes": [
+    {
+      "nombre": "Augusto",
+      "edad": 26,
+      "telefono": "4324234",
+      "fecha": "2022-09-03",
+      "remedios": "",
+      "diagnostico": "Si",
+      "id": 2
+    },
+    {
+      "nombre": "dsfds",
+      "edad": 56,
+      "telefono": "32432432",
+      "fecha": "2022-09-07",
+      "remedios": "dsfdfdshfgj gdfhg",
+      "diagnostico": "rettret",
+      "id": 3
+    }
+  ]
+}
