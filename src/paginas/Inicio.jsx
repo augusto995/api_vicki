@@ -5,6 +5,7 @@ const Inicio = () => {
 
   const [clientes, setClientes] = useState([])
 
+  
   useEffect(() =>{
     const obtenerClientesAPI = async () => {
       try {

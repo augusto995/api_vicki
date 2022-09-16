@@ -2,7 +2,7 @@ import { Outlet, Link, useLocation } from "react-router-dom"
 
 const Layout = () => {
 
-
+//Prueba
   const location = useLocation();
   const urlActual = location.pathname;
 
