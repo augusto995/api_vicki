@@ -26,7 +26,7 @@ const Formulario = ({cliente, cargando}) => {
             let respuesta
             if (cliente.id){
                 //Editando registro
-                const url = `http://localhost:4000/clientes/${cliente.id}`
+                const url = `https://my-json-server.typicode.com/augusto995/api_vicki/clientes${cliente.id}`
 
                 respuesta = await fetch(url, {
                     method: 'PUT',
@@ -38,7 +38,7 @@ const Formulario = ({cliente, cargando}) => {
     
             } else{
                 //Nuevo Registro
-                const url = 'http://localhost:4000/clientes'
+                const url = 'https://my-json-server.typicode.com/augusto995/api_vicki/clientes'
 
             respuesta = await fetch(url, {
                 method: 'POST',

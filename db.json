@@ -17,6 +17,24 @@
       "remedios": "dsfdfdshfgj gdfhg",
       "diagnostico": "rettret",
       "id": 3
+    },
+    {
+      "nombre": "HOLA MUNDOxdgdfhgfjhfd",
+      "edad": 34,
+      "telefono": "4324",
+      "fecha": "2022-09-28",
+      "remedios": "",
+      "diagnostico": "Hola\n",
+      "id": 4
+    },
+    {
+      "nombre": "dsf",
+      "edad": 45,
+      "telefono": "234525",
+      "fecha": "2022-09-27",
+      "remedios": "",
+      "diagnostico": "dsgagsd",
+      "id": 5
     }
   ]
 }
