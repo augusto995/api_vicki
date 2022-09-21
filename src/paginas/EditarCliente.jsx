@@ -11,7 +11,7 @@ const EditarCliente = () => {
       
       const obtenerClienteAPI = async () => {
         try {
-          const url = `https://my-json-server.typicode.com/augusto995/api_vicki/clientes${id}`
+          const url = `${import.meta.env.VITE_API_URL}/${id}`
           const respuesta = await fetch(url)
           const resultado = await respuesta.json()
           setCliente(resultado)
@@ -28,7 +28,7 @@ const EditarCliente = () => {
 
   return (
     <>
-        <h1 className='font-black text-4xl text-green-600'>Editar Cliente</h1>
+        <h1 className='font-black text-4xl text-pink-300'>Editar Cliente</h1>
         <p className='mt-3'>Utiliza este formulario para editar datos de un cliente</p>
 
         {cliente.nombre ? (

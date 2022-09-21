@@ -14,12 +14,12 @@ const Cliente = ({cliente, handleEliminar}) => {
         <td className='p-3'>
 
         <button type='button' className='bg-blue-400 hover:bg-blue-500 block w-full text-white p-2 uppercase font-bold text-xs mt-3'
-        onClick={() => navigate(`/clientes/${id}`)}
+        onClick={() => navigate(`/${id}`)}
         >
             Ver
           </button>
           <button type='button' className='bg-green-600 hover:bg-green-700 block w-full text-white p-2 uppercase font-bold text-xs mt-3'
-          onClick={() => navigate(`/clientes/editar/${id}`)}>
+          onClick={() => navigate(`/editar/${id}`)}>
             Editar
           </button>
           <button type='button' className='bg-red-600 hover:bg-red-700 block w-full text-white p-2 uppercase font-bold text-xs mt-3'

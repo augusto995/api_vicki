@@ -26,7 +26,7 @@ const Formulario = ({cliente, cargando}) => {
             let respuesta
             if (cliente.id){
                 //Editando registro
-                const url = `https://my-json-server.typicode.com/augusto995/api_vicki/clientes${cliente.id}`
+                const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`
 
                 respuesta = await fetch(url, {
                     method: 'PUT',
@@ -38,7 +38,7 @@ const Formulario = ({cliente, cargando}) => {
     
             } else{
                 //Nuevo Registro
-                const url = 'https://my-json-server.typicode.com/augusto995/api_vicki/clientes'
+                const url = import.meta.env.VITE_API_URL
 
             respuesta = await fetch(url, {
                 method: 'POST',

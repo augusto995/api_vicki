@@ -12,12 +12,12 @@ const Layout = () => {
         <h2 className="text-4xl font-black text-center text-white">Pacientes Vicki</h2>
         <nav className="mt-10">
           <Link 
-          className={`${urlActual === '/clientes' ? 'text-pink-500' : 'text-white'} text-2xl block mt-2 hover:text-pink-500`}
-          to="/clientes">Pacientes</Link>
+          className={`${urlActual === '/' ? 'text-pink-500' : 'text-white'} text-2xl block mt-2 hover:text-pink-500`}
+          to="/">Pacientes</Link>
 
           <Link 
-          className={`${urlActual === '/clientes/nuevo' ? 'text-pink-500' : 'text-white'} text-2xl block mt-2 hover:text-pink-500`}
-          to="/clientes/nuevo">Nuevo Paciente</Link>
+          className={`${urlActual === '/nuevo' ? 'text-pink-500' : 'text-white'} text-2xl block mt-2 hover:text-pink-500`}
+          to="/nuevo">Nuevo Paciente</Link>
 
         </nav>
       </div>
